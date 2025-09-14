@@ -14,6 +14,7 @@ namespace Hazel {
 		m_OrthographicNear = nearClip;
 		m_OrthographicFar = farClip;
 		RecalcaulateProjection();
+
 	}
 	void SceneCamera::SetViewportSize(uint32_t width, uint32_t height)
 	{
