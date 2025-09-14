@@ -53,6 +53,7 @@ namespace Hazel {
 			void OnUpdate(Timestep ts)
 			{
 				auto& transform = GetComponent<TransformComponent>().Transform;
+				int a = 0;
 				float speed = 5.0f;
 				if (Input::IsKeyPressed(HZ_KEY_A))
 					transform[3][0] -= speed * ts;

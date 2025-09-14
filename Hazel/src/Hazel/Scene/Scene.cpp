@@ -5,6 +5,7 @@
 #include "glm/glm.hpp"
 #include "Entity.h"
 #include "glm/gtc/matrix_transform.hpp"
+
 namespace Hazel {
 	Scene::Scene()
 	{
